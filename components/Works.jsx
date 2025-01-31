@@ -2,11 +2,11 @@ import React from "react";
 import Tilt from "react-parallax-tilt";
 import { motion } from "framer-motion";
 import Image from "next/image";
-
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 import truncateText from "@/utils/truncate";
 import GithubLogo from "./../public/assets/icons/github.svg";
+import Achievements from "../components/Achievements";  // Import Achievements Component
 
 function ProjectCard({
   index,
@@ -107,6 +107,9 @@ function Works() {
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
       </div>
+
+      {/* Add Achievements Section */}
+      <Achievements />  {/* Add Achievements after Projects */}
     </section>
   );
 }

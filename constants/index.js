@@ -275,6 +275,24 @@ const projects = [
   
 ];
 
+const achievements = [
+  {
+    title: "Google Data Analytics Certification",
+    description: "Earned the Google Data Analytics Certificate, demonstrating proficiency in data cleaning, visualization, SQL, and problem-solving using Google Sheets and Tableau.",
+    issuedBy: "Google",
+    date: "January 2025",
+    certificateLink: "https://coursera.org/verify/google-data-analytics-cert"
+  },
+  {
+    title: "Microsoft Certified: Power BI Data Analyst",
+    description: "Achieved certification for Power BI, covering data modeling, visualization, and business intelligence strategies.",
+    issuedBy: "Microsoft",
+    date: "February 2025",
+    certificateLink: "https://learn.microsoft.com/en-us/certifications/power-bi-data-analyst/"
+  },
+];
+
+
 const socials = [
   {
     id: "github",
@@ -284,8 +302,18 @@ const socials = [
   {
     id: "linkedin",
     icon: <LinkedInIcon />,
-    link: "https://www.linkedin.com/in/amarendranayak",
+    link: "https://www.linkedin.com/in/amarendranayak/",
   },
+  {
+    id: "instagram",
+    icon: <InstagramIcon/>,
+    link: "https://www.instagram.com/itz_amarendra_22/",
+  },
+  {
+    id: "twitter",
+    icon: <XIcon/>,
+    link: "https://x.com/AmarendraN1409?t=GZkRLL44S4hoU5dkx8jCZA&s=08",
+  }
 ];
 
 const heroTexts = [
@@ -306,4 +334,5 @@ export {
   projects,
   socials,
   heroTexts,
+  achievements,
 };
