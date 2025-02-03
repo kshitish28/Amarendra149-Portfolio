@@ -272,6 +272,27 @@ const projects = [
     image: "/assets/projects/investment-insight.jpg",
     source_code_link: "https://github.com/amarendranayak149/",
   },
+  {
+    name: "Flipkart Mobile Product Price Analysis",
+    description:
+      "The Power BI project analyzes Flipkart's mobile product pricing, brand trends, and feature correlations, using interactive dashboards to understand market segmentation based on price, brand, and specifications.",
+    tags: [
+      {
+        name: "Power BI",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Data Cleaning & Transformation",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Statistical Analysis",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: "/assets/projects/Flipkart-Mobile.png",
+    source_code_link: "https://github.com/amarendranayak149/Terrorism-Interactive-Dashboard-Data-Analysis-Project-Using-Power-BI.git",
+  },
   
 ];
 
