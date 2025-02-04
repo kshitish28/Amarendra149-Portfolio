@@ -291,7 +291,7 @@ const projects = [
       },
     ],
     image: "/assets/projects/Flipkart-Mobile.png",
-    source_code_link: "https://github.com/amarendranayak149/Terrorism-Interactive-Dashboard-Data-Analysis-Project-Using-Power-BI.git",
+    source_code_link: "https://github.com/amarendranayak149/FLIPKART-MOBILE-PRODUCT-PRICE-ANALYSIS-BASED-ON-FEATURES-AND-BRANDS.git",
   },
   
 ];
